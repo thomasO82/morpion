@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Gameplay';
+    src: url(../fonts/Gameplay.ttf) format(opentype);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+h1{
+    padding: 50px;
+    font-family: Gameplay;
+    font-size: 40px;
+    color: rgb(108, 144, 253) 
+}
+
+#morpion {
+    height: 300px;
+    width: 300px;
+}
+
+.row{
+    height: 25%;
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    border: 1px solid black;
+}
